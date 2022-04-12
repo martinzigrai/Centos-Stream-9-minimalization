@@ -1,7 +1,7 @@
 dnf config-manager --set-enabled crb
 dnf install epel-release epel-next-releas
 
-chmod +x scrip.sh
+chmod +x script.sh
 ./script.sh
 
 # Install arora
