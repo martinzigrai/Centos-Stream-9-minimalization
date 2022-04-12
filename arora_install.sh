@@ -1,8 +1,8 @@
 dnf config-manager --set-enabled crb
 dnf install epel-release epel-next-releas
 
-chmod +x script.sh
-./script.sh
+chmod +x fedora_script.sh
+./fedora_script.sh
 
 # Install arora
 dnf -y install arora
