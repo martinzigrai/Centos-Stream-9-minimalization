@@ -16,6 +16,6 @@ dnf -y install mupdf
 # window manager
 dnf -y install twm
 
-echo "xterm & exec twn" > .xinitrc
+echo "xterm & exec twm" > .xinitrc
 
 reboot
